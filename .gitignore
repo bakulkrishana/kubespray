@@ -26,8 +26,9 @@ plugins/mitogen
 
 # Ansible inventory
 inventory/*
-!inventory/local
-!inventory/sample
+!inventory/hyd-k8-cluster-01
+inventory/local
+inventory/sample
 inventory/*/artifacts/
 
 # Byte-compiled / optimized / DLL files
